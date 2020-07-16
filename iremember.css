@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .pre-signup{
     background: #1820E6;
     font-family: Averta-Semibold;
@@ -33,24 +39,18 @@
     opacity: 0.7;
 }
 
-/* .image{
-    /* margin-top: 160px; */
-    height:812px;
-    width: 375px;
-    /* position: absolute; */
+.image{
 
-    transform: translate(-50%,15%);
-} */
+    position: absolute;
+    right: 35%;
 
-/* .vector1{ */
-    /* margin: 0 auto; */
-    text-align: center;
-    /* position: relative; */
-    left: 58%;
-    top: 50%;
-       transform: translate(-40%,1900%);
 }
+.svg1{
+    position: relative;
+    top: 50%;
 
+    transform: translate(40%,-20%);
+}
 /* .vector2{
     text-align: center;
     position: relative;
@@ -79,7 +79,7 @@
     font-size: 24px;
 }
 .block{
-    margin-left: 30px;
+    margin: 0 auto;
 }
 
 .secure{
@@ -108,4 +108,55 @@
 }
 .recall{
     margin-top: 98px;
+}
+
+.app-experience{
+    margin-top: 272px;
+
+}
+.app-video{
+    width: 1240px;
+    height: 728px;
+}
+.frame2{
+    margin:243px auto 0 auto;
+}
+
+.pages{
+    margin-top: 243px;
+}
+
+.pre-signupbtn{
+    padding: 18px 27px;
+    border-radius: 10px;
+    background-color: white;
+    color: #1820E6;
+    cursor: pointer;
+}
+
+.email-bar{
+    padding: 18px 27px;
+    border-radius: 10px;
+    width: 294px;
+    background: #1820E6;
+    border: 1px solid white;
+    border-radius: 16px;
+    color: white;
+    outline: none;
+}
+
+#footer{
+    margin-top: 258px;
+    /* height: 344px; */
+    padding-top: 120px;
+    color: white;
+    
+    padding-bottom: 120px;
+    background: #1820E6;
+    border-radius: 16px;
+}
+
+.bottom{
+    margin-top: 40px;
+    text-align: center;
 }
